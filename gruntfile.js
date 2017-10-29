@@ -1,8 +1,9 @@
-"use strict";
+
 var psiNgrok = require('psi-ngrok');
 // psiNgrok();
 
 module.exports = function(grunt) {
+  'use strict';
 
   // load tasks!
   require('load-grunt-tasks')(grunt);
